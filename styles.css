@@ -12,6 +12,10 @@ body {
   /* align-items: center; */
 }
 
+.player--active {
+  border: 3px solid black;
+}
+
 .player-div {
   display: flex;
   justify-content: space-evenly;
