@@ -25,7 +25,7 @@ body {
   text-align: center;
   padding-top: 150px;
   font-size: 5rem;
-  color: rgb(0, 123, 255);
+  color: rgb(52, 67, 6);
 }
 
 .player1 {
@@ -53,7 +53,7 @@ body {
   font-size: 50px;
 }
 
-.takeSticks-div {
+.takeSticks-container {
   display: flex;
   padding: 20px;
   align-self: center;
@@ -63,4 +63,19 @@ body {
   font-size: 100px;
   margin: 10px;
   cursor: pointer;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.again-div,
+.start-div {
+  padding: 1rem;
+}
+
+#again,
+#play {
+  font-size: 50px;
 }
